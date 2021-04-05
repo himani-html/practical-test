@@ -1,0 +1,136 @@
+@media only screen and (max-width:991px) {	
+	/* Header */
+	header .navbar{padding: 8px 0px;}
+	header .navbar-brand{padding: 0px;}
+	header .navbar-collapse { -webkit-transition: height 0.3s linear; 
+		-moz-transition: height 0.3s linear; 
+		-ms-transition: height 0.3s linear; 
+		-o-transition: height 0.3s linear; 
+		transition: height 0.3s linear; 
+		height: calc(100vh - 92px); background:#001a53; top: 100%; position: absolute; width: 100%; padding: 0; left: 0; overflow: hidden; overflow-y: auto; backface-visibility: hidden; -webkit-backface-visibility: hidden; z-index: 9; }	
+	header .navbar .navbar-nav{justify-content: flex-start; text-align: left;}
+	header .navbar-collapse .nav-item { border-top: 1px solid rgba(255, 255, 255, 0.04);  padding: 0px; }
+	header .navbar-collapse .nav-item:first-child{border-top: 0px;}
+	header .navbar .navbar-nav .nav-item .nav-link {padding: 10px 16px !important; color: #fff; }
+	header .navbar .navbar-nav .nav-item .nav-link:after{content: none;}
+	.toggle-btn { display: block; width: 32px; height: 38px; padding: 4px 0 0 0;}
+	.toggle-btn span:after, .toggle-btn span:before { content: ""; position: absolute; left: 0; top: 9px; }
+	.toggle-btn span:after { top: 18px; }
+	.toggle-btn span { position: relative; display: block; }
+	.toggle-btn span,
+	.toggle-btn span:after,
+	.toggle-btn span:before { width: 100%; height: 2px; background-color:#fff; transition: all 0.3s; backface-visibility: hidden; border-radius: 2px; }
+	.toggle-btn.menu-show span { background-color: transparent; }
+	.toggle-btn.menu-show span:before { transform: rotate(45deg) translate(-1px, 0px); }
+	.toggle-btn.menu-show span:after { transform: rotate(-45deg) translate(6px, -7px); }
+
+	h1{ font-size: 2.00em;}
+	h2{ font-size: 1.875em;}
+	h3{ font-size: 1.125em;}
+
+	/* Banner */
+	.banner{padding: 104px 0px 48px;}
+	.banner h1{ line-height: 48px; margin: 0px;}
+	.banner p{width: 100%;}
+	.banner .view-more{margin-top: 24px;}
+	/* Services */
+	.about-us{padding: 48px 0px;}
+	.about-us .service-main{ padding: 32px 24px;}
+	.about-us .service-main .service-list{margin-top: 24px;}
+	.about-us .service-main .service-list span{ width: 40px; height: 40px; margin-right: 16px;}
+	.about-us .service-main .service-list .service-info h3{ margin-bottom: 8px;}
+	
+	/* Common sub title */
+	.sub-title span{ font-size: 1.00em;}
+	
+	/* Our Work */
+	.our-work.our-team{ padding: 148px 0px 48px;}
+	.our-work .small-info{padding: 16px 0px 24px;}
+	.our-work .workslider .item .project-profile{margin-top: 24px;}
+	.our-work .workslider .item .project-profile p{ margin-top: 16px;}
+	.our-work .workslider .owl-dots{margin-top: 24px;}
+
+	/* Vision */	
+	.vision-mision{ padding: 48px 0px 0px;}
+	.vision-mision .row:last-child{margin-bottom: -100px;}
+	.vision-mision .small-info{ padding: 24px 0px 48px;}
+	.vision-mision .mission-block{padding: 24px;}
+	.vision-mision .mission-block h3{ margin-bottom: 16px;}
+	.vision-mision .mission-block img{ margin-bottom: 16px;}
+
+	.business-plan{ padding: 48px 0px;}
+
+	.our-work{ padding: 48px 0px;}
+	.testimonial-slider .test-img{ width: 216px; height: 216px;}
+	.testimonial-slider .testi-content{width: calc(100% - 216px);}
+	.testimonial-slider .testi-content p{ margin-top: 16px;}
+	.testimonial-slider .testi-content h3{ margin-top: 24px;}
+	.testimonial-slider .owl-dots{ width: calc(100% - 216px); margin-left: 216px; margin-top: -20px;}	
+	.testimonial-slider .test-img .quote{    width: 48px; height: 48px; right: -34px; top: 32px;}
+	
+	.project-status{ padding: 48px 0px;}
+	.project-status .status-list h4{font-size: 2.5em; margin:16px 0px;}
+
+	.contact-tab{padding: 48px 0px;}
+	.contact-tab form{ margin-top: 24px;}
+	.contact-tab form .form-group{ margin-bottom: 16px;}
+	.contact-tab ul.contact-social{ margin-top: 24px;}
+	.contact-tab ul.address li{ padding-top: 24px;}
+	.contact-tab ul.contact-social li{ padding-right: 16px;}
+	.contact-tab ul.contact-social li a i{ font-size: 24px;}
+
+	footer{padding:48px 0px;}
+	footer ul{margin-top: 24px;}
+	footer p{ margin-top: 24px;}
+	
+}
+@media only screen and (max-width:767px) {
+	.btn{ padding: 10px 20px; }
+	/* Header */	
+	header .navbar{ padding: 16px; }
+	header .navbar-brand img{max-width: 180px;}
+	header .navbar-collapse{ height: calc(100vh - 74px);}
+	.business-plan button{ float: none; margin-top: 20px;}
+	.testimonial-slider .owl-item .item{ text-align: center;}
+	.testimonial-slider .test-img{ width: 186px; height: 186px; margin:0 auto; float: none; border: 8px solid #eaeaea; margin-bottom: 16px; }
+	.testimonial-slider .testi-content{ width: 100%; padding-left: 0px;}
+	.testimonial-slider .owl-dots{width: 100%; margin-left: 0px; margin-top: 0px; padding: 0px; text-align: center;}
+	.project-status{ padding: 32px 0px;}
+	.project-status .status-list { padding:16px 0px;}
+	.project-status .status-list h4{ margin:12px 0px 8px ;}
+	.our-work .workslider .item .main-img{height: 240px;}
+}
+@media only screen and (max-width:575px) {
+	h2{font-size: 1.80em;}
+	p{ font-size: 0.875em; line-height: 22px;}
+	.btn{padding: 8px 16px;}
+
+	h1 { font-size: 1.500em;}
+	h2{ font-size: 1.375em;}
+
+	/* Banner */
+	.banner { padding: 72px 0px 32px; }
+	.banner h1 { line-height: 34px;}
+	.about-us { padding: 32px 0px;}
+	.our-work{ padding: 32px 0px;}
+	.about-us .service-main{ padding:16px;}
+	.about-us .service-main .service-list .service-info h3{ font-size: 1.00em;}
+	.about-us .service-main .service-list .service-info p{ line-height: 22px;}
+	.vision-mision{ padding:32px 0px;}
+	.vision-mision .small-info{ padding: 24px 0px 32px;}
+	.vision-mision .row:last-child{    margin-bottom: 0px;}
+	.vision-mision .row:last-child .col-md-6{ padding:0px 15px;}
+	.project-status .status-list h4{ font-size: 2.00em;}
+	.project-status .status-list img{ max-width: 30px;}
+	.our-work.our-team{padding: 32px 0px;}
+	.business-plan,.contact-tab,footer{ padding:32px 0px;}
+	.contact-tab form .form-control{ height: 48px;}
+	footer ul { margin-top: 16px; }
+	footer ul li{ width: 100%; padding:4px 0px;}
+	footer p { margin-top: 16px;}
+	.testimonial-slider .testi-content{padding-bottom: 24px;}
+} 
+
+@media only screen and (max-width:480px) {
+	.about-us .about-img img{max-width: 100%;}
+}
